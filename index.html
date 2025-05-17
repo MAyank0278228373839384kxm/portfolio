@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aditya's Personal Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: url('background.png') no-repeat center center fixed;
+      background-size: cover;
+      color: #f0f0f0;
+    }
+
+    .container {
+      padding: 20px;
+      max-width: 600px;
+      margin: auto;
+      background-color: rgba(0, 0, 0, 0.6);
+      border-radius: 10px;
+    }
+
+    .heading {
+      text-align: center;
+      font-size: 1.2rem;
+      font-style: italic;
+      font-weight: bold;
+      text-decoration: underline 2px antiquewhite;
+      margin-bottom: 20px;
+    }
+
+    .photo {
+      display: flex;
+      justify-content: center;
+      margin: 10px 0;
+    }
+
+    .photo img {
+      border-radius: 50%;
+      border: 4px solid #ccc;
+    }
+
+    .head1, .head2 {
+      text-align: center;
+      font-size: 1.8rem;
+      font-weight: bold;
+      margin: 8px 0;
+    }
+
+    .head1 {
+      color: burlywood;
+    }
+
+    .head2 {
+      color: white;
+    }
+
+    form {
+      margin-top: 20px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    input[type="text"], input[type="password"] {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 15px;
+      border: none;
+      border-radius: 5px;
+    }
+
+    .gender-group {
+      margin-bottom: 15px;
+    }
+
+    .submit {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      width: 100%;
+      transition: background-color 0.3s ease;
+    }
+
+    .submit:hover {
+      background-color: #45a049;
+    }
+
+    .social-link {
+      display: block;
+      text-align: center;
+      margin: 15px auto;
+      padding: 10px;
+      color: aqua;
+      border: 2px solid #f0f0f0;
+      border-radius: 16px;
+      text-decoration: none;
+      font-size: 16px;
+      width: fit-content;
+    }
+
+    .rating, .info {
+      text-align: center;
+      margin: 10px 0;
+    }
+
+    ul {
+      color: #00FFFF;
+      padding-left: 20px;
+    }
+
+    @media (max-width: 500px) {
+      .head1, .head2 {
+        font-size: 1.5rem;
+      }
+
+      .submit {
+        font-size: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="heading">
+      <span>INDIA'S BEST COLOUR PREDICTION CHANNEL 🎯</span>
+    </div>
+
+    <div class="photo">
+      <img src="image.png" height="150" width="150" alt="photo of batman" />
+    </div>
+
+    <div class="head1">MADARCHOD</div>
+    <div class="head2">ARMY</div>
+
+    <div class="rating">
+      <p style="color:aqua; font-size: 1.3rem;">CHANNEL RATING</p>
+      <h2 style="color: #f0f0f0;">⭐⭐⭐⭐⭐ (4.9/5)</h2>
+    </div>
+
+    <form action="google form" method="post">
+      <h2 style="color: floralwhite;">Please fill the basic formalities</h2>
+
+      <label for="username">Name:</label>
+      <input type="text" id="username" name="mayank" placeholder="Enter your name..." />
+
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email" placeholder="Enter your email..." />
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" placeholder="Enter password..." />
+
+      <div class="gender-group">
+        <label>Select your gender:</label>
+        <input type="radio" name="gender" id="male" />
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" />
+        <label for="female">Female</label>
+      </div>
+
+      <button class="submit">SUBMIT</button>
+    </form>
+
+    <a href="https://www.facebook.com" class="social-link">JOIN FACEBOOK FOR MORE</a>
+
+    <p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit commodi eos magnam corporis dolorem ipsum?</p>
+    <p class="info">!! CLICK ON GIVEN LINK !!</p>
+
+    <ul>
+      <li>99% winning</li>
+      <li>Sure-shot prediction</li>
+      <li>Winning channel</li>
+    </ul>
+
+    <a href="https://www.instagram.com" class="social-link">JOIN MY INSTAGRAM</a>
+  </div>
+</body>
+</html>
